@@ -1,0 +1,20 @@
+{
+  "project_directory": "/Users/linh/Documents/workspace",
+  "exclude_folders": ["node_modules", "bower_components", "build"],
+  "log": true,
+  "scopes": [
+    {
+      "scope": ".",
+      "auto": true,
+      "relative": true,
+      "base_directory": false,
+      "prefix": ["import", "from"],
+      "extensions": ["js"],
+      "replace_on_insert": [
+        ["\\.js$", ""],
+        ["([^.])\\/index$", "\\1"],
+        ["^([\\/.]+)?\\/(bower_components|node_modules)\\/", ""]
+      ]
+    }
+  ]
+}

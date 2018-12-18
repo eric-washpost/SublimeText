@@ -1,0 +1,44 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"All Autocomplete",
+		"AngularJS",
+		"Autoprefixer",
+		"Babel",
+		"Babel Snippets",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"Fix Mac Path",
+		"FuzzyFilePath",
+		"Generic Config",
+		"Git",
+		"Google Closure Template snippets",
+		"JSON Reindent",
+		"JsPrettier",
+		"LESS",
+		"Material Theme",
+		"Package Control",
+		"Predawn",
+		"Python PEP8 Autoformat",
+		"ReactJS",
+		"Sass",
+		"SCSS Expander",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"Soy",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flow",
+		"SublimeLinter-stylelint",
+		"SyncedSideBar",
+		"Theme - Soda",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes",
+		"WordHighlight"
+	]
+}

@@ -1,0 +1,90 @@
+// SublimeLinter Settings - User
+{
+  "debug": false,
+  "delay": 0.25,
+  "gutter_theme": "Packages/SublimeLinter/gutter-themes/Blueberry/cross/Blueberry - cross.gutter-theme",
+  "highlights.time_to_idle": 5,
+  "highlights.demote_while_editing": "none",
+  "highlights.demote_scope": "",
+  "lint_mode": "background",
+  "linters": {
+    "eslint": {
+      "@disable": false,
+      "args": [],
+      "excludes": []
+    },
+    "stylelint": {
+      "@disable": false,
+      "args": [],
+      "excludes": []
+    }
+  },
+  "no_column_highlights_line": false,
+  "show_hover_line_report": true,
+  "show_hover_region_report": true,
+  "show_marks_in_minimap": true,
+  "styles": [
+    {
+      "mark_style": "outline",
+      "priority": 1,
+      "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+      "icon": "dot",
+      "types": [
+        "warning"
+      ]
+    },
+    {
+      "mark_style": "outline",
+      "priority": 1,
+      "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+      "icon": "dot",
+      "types": [
+        "error"
+      ]
+    }
+  ],
+  "paths": {
+    "linux": [],
+    "osx": ["/usr/local/bin/"],
+    "windows": []
+  },
+  "syntax_map": {
+    "coffeescript (gulpfile)": "coffeescript",
+    "html (django)": "html",
+    "html (rails)": "html",
+    "html 5": "html",
+    "javascript (babel)": "javascript",
+    "javascriptnext": "javascript",
+    "javascript (eslint)": "javascript",
+    "javascript (gruntfile)": "javascript",
+    "javascript (gulpfile)": "javascript",
+    "javascript (postcss)": "javascript",
+    "javascript (puglint)": "javascript",
+    "javascript (stylelint)": "javascript",
+    "javascript (webpack)": "javascript",
+    "json (babel)": "json",
+    "json (bower)": "json",
+    "json (composer)": "json",
+    "json (eslint)": "json",
+    "json (npm)": "json",
+    "json (postcss)": "json",
+    "json (puglint)": "json",
+    "json (settings)": "json",
+    "json (stylelint)": "json",
+    "json (sublime)": "json",
+    "json (tern js)": "json",
+    "magicpython": "python",
+    "php": "html",
+    "python django": "python",
+    "pythonimproved": "python",
+    "xml (config)": "xml",
+    "xml (svg)": "xml",
+    "yaml (circleci)": "yaml",
+    "yaml (docker)": "yaml",
+    "yaml (eslint)": "yaml",
+    "yaml (lock)": "yaml",
+    "yaml (procfile)": "yaml",
+    "yaml (stylelint)": "yaml",
+    "yaml (yarn)": "yaml"
+  }
+}
